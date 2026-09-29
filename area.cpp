@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-float length, breadth;
-cout<< "enter length and breadth:";
-cin>>length>>breadth;
-cout<<"area="<<length*breadth<<endl;
-cout<<"perimeter="<<2*(length+breadth);
+
+int main() {
+    float r;
+    cin >> r;
+
+    cout << "Area = " << 3.14 * r * r << endl;
+    cout << "Circumference = " << 2 * 3.14 * r;
+
+    return 0;
 }
